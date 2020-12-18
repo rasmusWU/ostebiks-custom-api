@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ostebiks</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
-    <script src="app.js"></script>
+    <div class="wrapper">
+        <header>
+            <h1>DA CHEEZ SHOP!!! (EPIC) 😤💯</h1>
+        </header>
+        <nav>
+            <a href="#">SHOP</a>
+            <a href="#">KATEGORIER</a>
+            <a href="#">KONTAKT</a>
+            <a id="basket" href="#">KURV (0)</a>
+        </nav>
+        <div><img src="./img/food_so_mf_good_crop.png" alt=""></div>
+        <section class="productList">
+            <section class="productListing">
+                <p>Type</p>
+                <p class="productListing__name"></p>
+                <p>Producent</p>
+                <p class="productListing__brand"></p>
+                <p>styrke</p>
+                <p class="productListing__strength"></p>
+                <p>vægt (gram)</p>
+                <p class="productListing__weight"></p>
+                <p>pris (DKK.)</p>
+                <p class="productListing__price"></p>
+                <button class="basketBtn">Læg i kurv</button>
+            </section>
+        </section>
+
+        <template id="template">
+            <section class="productListing">
+                <p>Type</p>
+                <p class="productListing__name"></p>
+                <p>Producent</p>
+                <p class="productListing__brand"></p>
+                <p>styrke</p>
+                <p class="productListing__strength"></p>
+                <p>vægt (gram)</p>
+                <p class="productListing__weight"></p>
+                <p>pris (DKK.)</p>
+                <p class="productListing__price"></p>
+                <button>Læg i kurv</button>
+            </section>
+        </template>
+    </div>
+    <script src="./app.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.productList {
+    width: 50%;
+}
+
+.productListing {
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em 0;
+    border-bottom: gray 1px solid;
+}
+
+.productListing p:nth-of-type(odd) {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(214, 214, 214);
+}
+
+.productListing p:nth-of-type(even) {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(199, 199, 199);
+}
+
+button {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(160, 160, 160);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(151, 151, 151);
+}
